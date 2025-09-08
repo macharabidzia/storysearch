@@ -1,1 +1,1 @@
-export declare const App: () => import("react/jsx-runtime").JSX.Element;
+export default function App(): import("react/jsx-runtime").JSX.Element;
