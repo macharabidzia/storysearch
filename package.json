@@ -6,6 +6,9 @@
   "files": [
     "dist"
   ],
+  "main": "dist/main.js",
+  "module": "dist/main.js",
+  "types": "dist/types/main.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc -p tsconfig.build.json",
