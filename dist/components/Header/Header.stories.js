@@ -1,6 +1,6 @@
 import { fn } from 'storybook/test';
 import { Header } from './Header';
-var meta = {
+const meta = {
     title: 'Example/Header',
     component: Header,
     tags: ['autodocs'],
@@ -14,11 +14,11 @@ var meta = {
     },
 };
 export default meta;
-export var LoggedIn = {
+export const LoggedIn = {
     args: {
         user: {
             name: 'Jane Doe',
         },
     },
 };
-export var LoggedOut = {};
+export const LoggedOut = {};

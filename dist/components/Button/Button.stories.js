@@ -1,6 +1,6 @@
 import { fn } from 'storybook/test';
 import { Button } from '../ui/button';
-var meta = {
+const meta = {
     title: 'Example/Button',
     component: Button,
     parameters: { layout: 'centered' },
@@ -12,7 +12,7 @@ var meta = {
     args: { onClick: fn() },
 };
 export default meta;
-export var Primary = { args: { variant: 'default', size: 'default', children: 'Button' } };
-export var Secondary = { args: { variant: 'secondary', size: 'default', children: 'Button' } };
-export var Large = { args: { variant: 'default', size: 'lg', children: 'Button' } };
-export var Small = { args: { variant: 'default', size: 'sm', children: 'Button' } };
+export const Primary = { args: { variant: 'default', size: 'default', children: 'Button' } };
+export const Secondary = { args: { variant: 'secondary', size: 'default', children: 'Button' } };
+export const Large = { args: { variant: 'default', size: 'lg', children: 'Button' } };
+export const Small = { args: { variant: 'default', size: 'sm', children: 'Button' } };

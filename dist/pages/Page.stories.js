@@ -1,10 +1,10 @@
 import Home from './Page';
-var meta = {
+const meta = {
     title: 'Pages/Home',
     component: Home,
     parameters: { layout: 'fullscreen' },
 };
 export default meta;
-export var Default = {
+export const Default = {
     args: {},
 };

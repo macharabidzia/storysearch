@@ -4,9 +4,9 @@
     "outDir": "dist",
     "declaration": true,
     "declarationDir": "dist/types",
-    "emitDeclarationOnly": false,
-    "jsx": "react-jsx",
-    "module": "ESNext"
+    "module": "ESNext",
+    "target": "ES2022",
+    "jsx": "react-jsx"
   },
-  "include": ["mainc.tsx", "src/**/*"]
+  "include": ["src/**/*"]
 }
